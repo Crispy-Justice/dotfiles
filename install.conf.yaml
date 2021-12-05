@@ -1,6 +1,21 @@
+- defaults:
+      link:
+        create: true
+        force: true
+
 - clean: ['~']
 
 - link:
-    ~/.zshrc: zshrc
+    ~/.zshrc: home/zshrc
 
+    ~/.config/picom.conf: config/picom.conf
 
+    ~/.config/bspwm/bspwmrc: config/bspwm/bspwmrc
+    ~/.config/sxhkd/sxhkdrc: config/sxhkd/sxhkdrc
+
+    ~/.config/rofi/config.rasi: config/rofi/config.rasi
+    ~/.config/rofi/powermenu.rasi: config/rofi/powermenu.rasi
+    ~/.config/rofi/clipboard.rasi: config/rofi/clipboard.rasi
+
+    ~/.config/kitty/kitty.conf: config/kitty/kitty.conf
+    ~/.config/alacritty/kitty.conf: config/alacritty/alacritty.yml
