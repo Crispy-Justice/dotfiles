@@ -13,3 +13,5 @@ chmod +x install_grubtheme.sh
 ./install_zsh.sh
 
 ../install
+
+chmod +x ~/.config/polybar/launch.sh
