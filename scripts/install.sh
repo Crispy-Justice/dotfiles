@@ -8,6 +8,8 @@ chmod +x install_fonts.sh
 chmod +x install_grubtheme.sh
 
 ./install_packages.sh
-./install_zsh.sh
 ./install_fonts.sh
 ./install_grubtheme.sh
+./install_zsh.sh
+
+../install
